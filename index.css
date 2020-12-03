@@ -16,6 +16,14 @@ p {
   text-align: center;
 }
 
+#tribute-info {
+  padding: 30px;
+}
+
+.tribute-header {
+  text-align: center;
+}
+
 #song-grid {
   display: grid;
   grid-template-columns: repeat(5, 15%);
@@ -38,7 +46,7 @@ p {
 }
 
 .song-details {
-  margin-left: 5px;
+  margin-left: 10px;
   color: #f4f3ef;
 }
 
@@ -49,4 +57,9 @@ p {
 
 .song-release-date {
   font-size: 10pt;
+}
+
+#more-info {
+  font-size: 20px;
+  font-weight: bold;
 }
