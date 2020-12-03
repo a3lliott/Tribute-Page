@@ -15,3 +15,38 @@ h1 {
 p {
   text-align: center;
 }
+
+#song-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 15%);
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.song {
+  background-color: #364548;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.song-image {
+  display: block;
+  margin: 5px auto 5px auto;
+  height: 200px;
+  width: 200px;
+}
+
+.song-details {
+  margin-left: 5px;
+  color: #f4f3ef;
+}
+
+.song-link {
+  font-size: 10pt;
+  color: #a88361;
+}
+
+.song-release-date {
+  font-size: 10pt;
+}
