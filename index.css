@@ -1,6 +1,23 @@
-h1 {
+#main {
+  margin: 15px 8px;
+  border-radius: 5px;
+  background-color: #cfcfcf;
+}
+
+#tribute-name {
   font-size: 60px;
   text-align: center;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+  margin: 5px 10px;
 }
 
 #image {
@@ -12,12 +29,12 @@ h1 {
   margin: auto;
 }
 
-p {
+figcaption {
   text-align: center;
 }
 
 #tribute-info {
-  padding: 30px;
+  padding: 5px 30px;
 }
 
 .tribute-header {
@@ -57,6 +74,17 @@ p {
 
 .song-release-date {
   font-size: 10pt;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
 }
 
 #more-info {
