@@ -69,7 +69,12 @@ figcaption {
 
 .song-link {
   font-size: 10pt;
-  color: #a88361;
+  color: #477ca7;
+}
+
+.song-link:visited {
+  font-size: 10pt;
+  color: #74638f;
 }
 
 .song-release-date {
@@ -90,4 +95,12 @@ li {
 #more-info {
   font-size: 20px;
   font-weight: bold;
+}
+
+.tribute-link {
+  color: #477ca7;
+}
+
+.tribute-link:visited {
+  color: #74638f;
 }
