@@ -58,8 +58,10 @@ figcaption {
 .song-image {
   display: block;
   margin: 10px auto 5px auto;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 90%;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .song-details {
